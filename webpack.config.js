@@ -37,6 +37,7 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            filename: 'index-dev.html',
             cache: true,
             inject: true,
             template: INDEX_HTML_FILE,
