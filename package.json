@@ -1,0 +1,38 @@
+{
+  "name": "webpack-dev-server-issue-666",
+  "version": "0.0.1",
+  "description": "Domain URL is not passed through proxy - webpack-dev-server issue #666",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack-dev-server",
+    "server": "node ./server",
+    "start": "run-p server watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-experiments/webpack-dev-server-issue-666.git"
+  },
+  "keywords": [
+    "issue",
+    "webpack",
+    "webpack-dev-server"
+  ],
+  "author": "Dmitry Nutels",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/zen-experiments/webpack-dev-server-issue-666/issues"
+  },
+  "homepage": "https://github.com/zen-experiments/webpack-dev-server-issue-666#readme",
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.24.0",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.9"
+  }
+}
